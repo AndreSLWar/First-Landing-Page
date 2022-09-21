@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha LP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#">[André Lima]</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>
+                    Apresentação de portfólio</h2>
+                <p>Este website serve como portfólio para André Lima (que foi o desenvolvedor do site)</p>
+            </div>
+            <div class="intro-img"><img src="assets/img/undraw_programmer_re_owql.svg"
+                    alt="Mulher com uma caneca de programador">
+            </div>
+        </div>
+    </section>
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Sobre mim</h2>
+            <p>Sou formado Técnico de Informática na ETEC de Cotia, onde aprendi um pouco sobre o mundo da
+                tecnologia.<br>
+                Venho estudando programação voltada para Front-End à pouco mais de 6 meses.<br>
+                Possuo experiência em desenvolvimento de sites usando Django, HTML e CSS puro.
+                <br>
+                Atualmente estou finalizando o curso<br> <a class="links"
+                    href="https://www.udemy.com/course/python-3-do-zero-ao-avancado/">Python 3 do Zero ao Avançado</a>
+                do
+                professor<br><strong>Luiz Otávio Miranda</strong>
+                e com anseio em começar um curso de JavaScript para por fim estudar React.js.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="grid-one main-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Meus Projetos</h2>
+            <p class="grid-description">Descrição [EM CONSTRUÇÃO]</p>
+            <div class="grid">
+                <article>
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eos illum minima nostrum
+                        aspernatur
+                        perspiciatis, quae asperiores natus veniam molestiae, alias reprehenderit culpa officia maiores
+                        nobis
+                        fugiat cupiditate nisi. Qui!</p>
+                </article>
+                <article>
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eos illum minima nostrum
+                        aspernatur
+                        perspiciatis, quae asperiores natus veniam molestiae, alias reprehenderit culpa officia maiores
+                        nobis
+                        fugiat cupiditate nisi. Qui!</p>
+                </article>
+                <article>
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eos illum minima nostrum
+                        aspernatur
+                        perspiciatis, quae asperiores natus veniam molestiae, alias reprehenderit culpa officia maiores
+                        nobis
+                        fugiat cupiditate nisi. Qui!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="grid-one white-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Descrição [EM CONSTRUÇÃO]</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="grid-two" class="grid-one main-bg">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Meus Projetos</h2>
+            <p class="grid-description">Descrição [EM CONSTRUÇÃO]</p>
+            <div class="grid">
+                <article>
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eos illum minima nostrum
+                        aspernatur
+                        perspiciatis, quae asperiores natus veniam molestiae, alias reprehenderit culpa officia maiores
+                        nobis
+                        fugiat cupiditate nisi. Qui!</p>
+                </article>
+                <article>
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eos illum minima nostrum
+                        aspernatur
+                        perspiciatis, quae asperiores natus veniam molestiae, alias reprehenderit culpa officia maiores
+                        nobis
+                        fugiat cupiditate nisi. Qui!</p>
+                </article>
+                <article>
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eos illum minima nostrum
+                        aspernatur
+                        perspiciatis, quae asperiores natus veniam molestiae, alias reprehenderit culpa officia maiores
+                        nobis
+                        fugiat cupiditate nisi. Qui!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Preços</h2>
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section> -->
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>
+                    CONTATO</h2>
+                <p>Caso surja interesse para fazer networking ou coisas relacionadas, por favor entre em contato!</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_contact_us_re_4qqt.svg" alt="entre em contato conosco">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Me contate</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro nome: </label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome: </label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail: </label>
+                        <input type="text" name="email" id="email" placeholder="Seu melhor e-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem: </label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p>
+            Feito com <span class="heart">♥</span> por André Lima
+        </p>
+    </footer>
+    <a href="#" class="back-to-top">➤</a>
+</body>
+
+</html>
